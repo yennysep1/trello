@@ -1,0 +1,60 @@
+/* backgroun degrade */
+
+body{
+	background-image: url("../img/bg.png"); 
+	background-repeat: no-repeat;
+}
+
+/* sobreescribir estilos */
+.row{
+	margin: 0px;
+}
+
+/* estilos del titulo*/
+h1{
+	color: #fff;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+.btn-info{
+	background-color: none;
+	border: 1px solid #fff;
+}
+
+/* estilos del container padre - tablero*/
+#tablero{
+	padding: 10px;
+}
+
+.marco{
+	background-color: #D8D8D8;
+	padding: 10px;
+	border-radius: 5px;
+	margin: 8px 5px 8px 5px;
+	border: 1px solid #fff;
+}
+
+strong{
+	display: block;
+}
+
+.fa{
+	float: right;
+}
+
+.form-control{
+	margin: 5px 0;
+}
+
+/* clase que oculta enlace - añadir tarjeta*/
+.ocultar{
+	display: none;
+}
+
+.tarjeta{
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 5px 5px;
+	margin: 8px 0px;
+}
+

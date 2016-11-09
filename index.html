@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trello</title>
+    <!-- LINKS OTRAS CARPETAS / TIPOGRAFIA / ICONOS-->
+   <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+      <!-- IMG FAVICON -->
+    <link rel="icon" type="image/png" href="./img/trello.png">
+  </head>
+  <!-- CUERPO DE LA PAGINA WEB-->
+  <body>
+  <!--CABECERA DE LA PAGINA-->
+    <header>
+      <nav class="navbar ">
+        <div class="container">
+          <div class="row">
+            <div class="navbar-header col-xs-12 col-lg-12">
+              <h1 class="text-center">Mis Tareas</h1>
+              <hr>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  <!--CABECERA DE LA PAGINA-->
+  <!--seccion boton añadir-->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <button type="button" onclick="crearListas()" class="btn btn-info">Añadir Listas</button>
+          </div>    
+        </div>
+      </div>
+    </section>
+   <!--row contenedora de listas -padre  -->
+    <section>
+      <div class="container" id="tablero"></div>
+    </section>
+    <!-- LINK JS Y JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type='text/javascript' src='js/main.js'></script>
+  </body>
+</html>
